@@ -8,7 +8,9 @@ const Home = (): ReactElement => (
   <Fragment>
     <h1 className={styles.title}>{APP_NAME}</h1>
     <p className={styles.paragraph}>{`By ${APP_AUTHOR}`}</p>
-    <Link to={ABOUT}>About</Link>
+    <Link to={ABOUT} data-testid="about-link">
+      About
+    </Link>
     <p>This is a template App for frontend react apps.</p>
   </Fragment>
 );

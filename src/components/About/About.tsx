@@ -6,7 +6,9 @@ import { HOME } from "../../constants";
 const About = (): ReactElement => (
   <div>
     <h2>About</h2>
-    <Link to={HOME}>Home</Link>
+    <Link to={HOME} data-testid="home-link">
+      Home
+    </Link>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, excepturi
       veniam quidem voluptas molestiae a, omnis eveniet incidunt possimus
