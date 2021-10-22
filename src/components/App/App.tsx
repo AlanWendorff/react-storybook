@@ -1,13 +1,9 @@
-import { Fragment, ReactElement } from "react";
-import { APP_AUTHOR, APP_NAME } from "../../constants/env";
+import { ReactElement } from "react";
 
-import styles from "./App.module.css";
+type Props = {
+  children: ReactElement;
+};
 
-const App = (): ReactElement => (
-  <Fragment>
-    <h1 className={styles.title}>{APP_NAME}</h1>
-    <p className={styles.paragraph}>{`By ${APP_AUTHOR}`}</p>
-  </Fragment>
-);
+const App = ({ children }: Props): ReactElement => <div>{children}</div>;
 
 export default App;

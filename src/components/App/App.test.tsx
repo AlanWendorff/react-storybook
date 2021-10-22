@@ -1,4 +1,3 @@
-import React from "react";
 import { render, cleanup } from "@testing-library/react";
 
 import App from "./App";
@@ -9,4 +8,6 @@ describe("When App component renders correctly", () => {
 
     expect(wrapper.getByText("By")).toBeInTheDocument();
   });
+
+  afterAll(() => cleanup());
 });
