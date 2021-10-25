@@ -4,13 +4,13 @@ import { Router } from "react-router";
 
 import reportWebVitals from "./reportWebVitals";
 import "./index.scss";
-import AppRoutes from "./components/AppRoutes";
+import App from "./components/App";
 import history from "./utils/history";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router history={history}>
-      <AppRoutes />
+      <App />
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
