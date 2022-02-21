@@ -1,0 +1,6 @@
+$web-padding: 7rem;
+$web-width: 75rem;
+
+$height-footer: 15.75rem;
+$height-header: 6.25rem;
+$min-height-main: calc(100vh - #{$height-footer} - #{$height-header});

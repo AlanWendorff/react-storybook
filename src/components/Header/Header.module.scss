@@ -1,0 +1,27 @@
+@use "../../css/colors" as colors;
+@use "../../css/mixins" as mixins;
+@use "../../css/variables" as variables;
+
+.container {
+  @include mixins.flex_container(row, center, center);
+  width: 100%;
+  height: variables.$height-header;
+  padding: 0 3rem;
+  position: fixed;
+  z-index: 100;
+
+  .content {
+    @include mixins.flex_container(row, space-between, center);
+    width: 100%;
+    max-width: 1920px;
+
+    > img {
+      margin-right: 3rem;
+    }
+
+    > div {
+      @include mixins.flex_container(row, flex-end, center);
+      width: 100%;
+    }
+  }
+}

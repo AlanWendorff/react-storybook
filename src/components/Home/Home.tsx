@@ -1,14 +1,18 @@
-import { Fragment, ReactElement } from "react";
-
+import { ReactElement } from "react";
 import styles from "./Home.module.scss";
-import { APP_AUTHOR, APP_NAME } from "../../constants";
 
 const Home = (): ReactElement => (
-  <Fragment>
-    <h1 className={styles.title}>{APP_NAME}</h1>
-    <h4 className={styles.subtitle}>{`By ${APP_AUTHOR}`}</h4>
-    <p>This is a template for frontend react apps.</p>
-  </Fragment>
+  <div className={styles.container}>
+    <iframe
+      width="1200"
+      height="600"
+      title="coming soon"
+      src="https://www.youtube.com/embed/mY-fSnKTLqw"
+      frameBorder="0"
+      allow="autoplay; encrypted-media"
+      allowFullScreen
+    ></iframe>
+  </div>
 );
 
 export default Home;

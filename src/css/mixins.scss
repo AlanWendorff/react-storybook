@@ -1,0 +1,62 @@
+@use "../css/colors" as colors;
+@use "../css/fonts" as fonts;
+
+/// Primary button factory.
+///
+/// @param {string} $background-color
+///   Background color for buttons.
+/// @return {string} $color.
+///   Font color
+@mixin btn_primary($background-color, $color) {
+  color: $color;
+  background-color: $background-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0 1.5rem;
+  height: 2.5rem;
+  font-family: fonts.$font-oswald;
+  white-space: nowrap;
+
+  &:hover {
+    color: $color;
+  }
+}
+
+/// Button link.
+///
+/// @param {string} $color
+///   Fonr color and border color for buttons.
+@mixin btn_link($color) {
+  color: $color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: fonts.$font-oswald;
+  background-color: colors.$color-transparent;
+}
+
+/// Flex container shortcut.
+///
+/// @param {string} $direction
+///   flex-direction value
+/// @param {string} $justify
+///   justify-content value
+/// @param {string} $align
+///   align-items value
+@mixin flex_container($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}

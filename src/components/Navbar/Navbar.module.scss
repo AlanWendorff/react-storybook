@@ -1,0 +1,21 @@
+@use "../../css/colors" as colors;
+@use "../../css/mixins" as mixins;
+@use "../../css/variables" as variables;
+
+.container {
+  width: 100%;
+  max-width: 62.5rem;
+  margin-right: 5%;
+
+  ul {
+    @include mixins.flex_container(row, space-between, center);
+    list-style: none;
+    width: 100%;
+    margin-bottom: 0;
+
+    a {
+      color: colors.$color-white;
+      font-size: 1rem;
+    }
+  }
+}

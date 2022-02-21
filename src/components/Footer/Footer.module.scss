@@ -1,0 +1,14 @@
+@use "../../css/colors" as colors;
+@use "../../css/mixins" as mixins;
+@use "../../css/variables" as variables;
+
+.container {
+  @include mixins.flex_container(column, space-between, center);
+  width: 100%;
+  height: variables.$height-footer;
+
+  p {
+    font-size: 1rem;
+    color: colors.$color-white;
+  }
+}

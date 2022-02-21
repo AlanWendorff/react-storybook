@@ -1,6 +1,19 @@
-@import "./css/colors";
+@use "./css/colors" as colors;
+@use "./css/fonts" as fonts;
 
-body {
-  background-color: $primaryBackgroundColor;
-  color: $primaryColor;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: colors.$color-black;
 }
