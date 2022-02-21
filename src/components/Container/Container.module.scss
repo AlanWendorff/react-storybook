@@ -1,0 +1,16 @@
+@use "../../css/variables" as variables;
+@use "../../css/mixins" as mixins;
+
+.container {
+  @include mixins.flex_container(row, center, flex-start);
+  width: 100%;
+
+  > .content {
+    @include mixins.flex_container(row, center, flex-start);
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 120rem;
+    min-height: variables.$min-height-main;
+    padding-bottom: variables.$web-padding;
+  }
+}
