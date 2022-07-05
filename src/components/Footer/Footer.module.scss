@@ -3,7 +3,7 @@
 @use "../../css/variables" as variables;
 
 .container {
-  @include mixins.flex_container(column, space-between, center);
+  @include mixins.flex_container(column, center, center);
   width: 100%;
   height: variables.$height-footer;
 

@@ -1,6 +1,6 @@
-@use "../../css/colors" as colors;
-@use "../../css/mixins" as mixins;
-@use "../../css/variables" as variables;
+@use "../../../../css/colors.scss" as colors;
+@use "../../../../css/mixins" as mixins;
+@use "../../../../css/variables" as variables;
 
 .container {
   width: 100%;
