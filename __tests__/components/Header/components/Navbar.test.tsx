@@ -1,6 +1,6 @@
 import React from "react";
 import { render, cleanup } from "@testing-library/react";
-import Navbar from "../src/components/Header/components/Navbar";
+import Navbar from "../../../../src/components/Header/components/Navbar";
 import { MemoryRouter } from "react-router-dom";
 
 describe("When Navbar component renders correctly", () => {
