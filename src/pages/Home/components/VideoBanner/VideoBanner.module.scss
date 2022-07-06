@@ -1,8 +1,18 @@
+@use "../../../../css/responsives" as responsives;
+
 .container {
   margin: 3rem 0;
 
   iframe {
     width: 75rem;
     height: 37.5rem;
+
+    @include responsives.extraLarge {
+      width: 55rem;
+    }
+
+    @include responsives.desktop {
+      width: 25rem;
+    }
   }
 }
