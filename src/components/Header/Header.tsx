@@ -9,7 +9,7 @@ const Header = (): ReactElement => (
   <div className={styles.container}>
     <div className={styles.content}>
       <Link to={HOME}>
-        <img src={website_logo} height="40" alt="website logo" />
+        <img src={website_logo} alt="website logo" />
       </Link>
 
       <div>
