@@ -9,16 +9,16 @@
   padding: 0 3rem;
   position: fixed;
   z-index: 100;
-  background-color: colors.$color-black;
+  background-color: colors.$web-background-color;
 
   .content {
     @include mixins.flex_container(row, space-between, center);
     width: 100%;
     max-width: variables.$web-max-width;
 
-    > img {
+    img {
       margin-right: 3rem;
-      height: 2.5rem;
+      max-height: 2.5rem;
     }
 
     > div {

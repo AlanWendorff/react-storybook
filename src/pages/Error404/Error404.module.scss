@@ -6,5 +6,5 @@
   @include mixins.flex_container(column, center, center);
   min-height: variables.$page-min-height;
   width: 100%;
-  color: colors.$color-white;
+  color: white;
 }
