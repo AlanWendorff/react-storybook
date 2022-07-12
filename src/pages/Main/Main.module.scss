@@ -1,0 +1,6 @@
+@use "../../css/mixins" as mixins;
+
+.container {
+  @include mixins.flex_container(column, space-between, center);
+  width: 100%;
+}

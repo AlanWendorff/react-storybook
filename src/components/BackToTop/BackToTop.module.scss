@@ -1,0 +1,36 @@
+@use "../../css/colors" as colors;
+@use "../../css/mixins" as mixins;
+@use "../../css/variables" as variables;
+
+.container {
+  @include mixins.flex_container(row, center, center);
+  width: 100%;
+  cursor: default;
+  background-color: colors.$color-transparent;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem;
+  margin: 4rem auto 2rem;
+  line-height: normal;
+  clear: both;
+  text-align: center;
+  z-index: 9;
+
+  a {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  p {
+    color: white;
+    transition: opacity 0.2s ease-out;
+    width: 10rem;
+    cursor: pointer;
+    background-color: colors.$color-transparent;
+    border: none;
+  }
+}

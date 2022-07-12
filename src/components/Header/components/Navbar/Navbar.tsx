@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import { NavLink } from "react-router-dom";
+import { HOME } from "../../../../constants/routes";
 import styles from "./Navbar.module.scss";
-import { HOME } from "../../constants/routes";
 
 const Navbar = (): ReactElement => (
   <div className={styles.container}>

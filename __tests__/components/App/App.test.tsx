@@ -1,8 +1,8 @@
 import React from "react";
 import { Router } from "react-router";
 import { render, cleanup } from "@testing-library/react";
-import history from "../src/utils/history";
-import App from "../src/components/App";
+import history from "../../../src/utils/history";
+import App from "../../../src/components/App";
 
 describe("When App component renders correctly", () => {
   it("should render the description paragraph", () => {

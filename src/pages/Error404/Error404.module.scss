@@ -1,8 +1,10 @@
 @use "../../css/colors" as colors;
 @use "../../css/mixins" as mixins;
+@use "../../css/variables" as variables;
 
 .container {
   @include mixins.flex_container(column, center, center);
+  min-height: variables.$page-min-height;
   width: 100%;
-  height: 45rem;
+  color: white;
 }

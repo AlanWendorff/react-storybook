@@ -1,13 +1,13 @@
 import { ReactElement } from "react";
-import styles from "./Home.module.scss";
+import styles from "./VideoBanner.module.scss";
 
-const Home = (): ReactElement => (
+const VideoBanner = (): ReactElement => (
   <div className={styles.container}>
     <iframe
       width="1200"
       height="600"
-      title="coming soon"
-      src="https://www.youtube.com/embed/mY-fSnKTLqw"
+      title="Tom Sachs video"
+      src="https://www.youtube.com/embed/JvKT5NizMrA"
       frameBorder="0"
       allow="autoplay; encrypted-media"
       allowFullScreen
@@ -15,4 +15,4 @@ const Home = (): ReactElement => (
   </div>
 );
 
-export default Home;
+export default VideoBanner;
