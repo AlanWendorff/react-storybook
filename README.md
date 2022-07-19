@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="display: flex; align-items: center;">
     <img alt="storybook" style="margin: 5rem;" src="https://pbs.twimg.com/profile_images/1100804485616566273/sOct-Txm_400x400.png" width="110" />
     <img alt="react" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207" width="100" />
 </div>
