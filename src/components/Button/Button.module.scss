@@ -1,0 +1,35 @@
+.storybookButton {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+
+.storybookButtonPrimary {
+  color: white;
+  background-color: #da8300;
+}
+
+.storybookButtonSecondary {
+  color: white;
+  background-color: rgb(117, 0, 117);
+  box-shadow: rgba(75, 75, 75, 0.15) 0px 0px 0px 1px inset;
+}
+
+.storybookButtonSmall {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+
+.storybookButtonMedium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+
+.storybookButtonLarge {
+  font-size: 16px;
+  padding: 12px 24px;
+}

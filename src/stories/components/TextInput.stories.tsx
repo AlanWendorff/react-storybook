@@ -1,7 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import TextInput from "./TextInput";
+import TextInput from "../../components/TextInput/TextInput";
 import { index } from "../../constants/storybook.index";
-import "../../index.scss";
 
 export default {
   title: `${index}TextInput`,

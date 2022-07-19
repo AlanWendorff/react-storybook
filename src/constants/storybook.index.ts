@@ -1,1 +1,1 @@
-export const index = "UI Elements/";
+export const index = "UI ELEMENTS/";

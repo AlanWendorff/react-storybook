@@ -1,7 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import Loader from "./Loader";
+import Loader from "../../components/Loader";
 import { index } from "../../constants/storybook.index";
-import "../../index.scss";
 
 export default {
   title: `${index}Loader`,

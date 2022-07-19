@@ -1,0 +1,23 @@
+@use "../../css/Button.module.scss" as button;
+@use "../../css/Link.module.scss" as link;
+
+.primary {
+  @include link.primary;
+}
+
+.secondary {
+  @include link.secondary;
+}
+
+.tertiary {
+  @include link.tertiary;
+}
+
+.button {
+  @include button.primary;
+}
+
+.buttonSecondary {
+  @include button.primary;
+  @include button.secondary;
+}
