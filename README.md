@@ -1,4 +1,4 @@
-# React Frontend Skeleton
+# React Frontend with Storybook
 
 ## Dependencies
 
