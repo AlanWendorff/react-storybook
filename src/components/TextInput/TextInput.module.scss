@@ -1,0 +1,38 @@
+@use "../../css/Label.module.scss" as label;
+
+.textInput {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  input[type="text"] {
+    font-size: 1rem;
+    color: var(--text-color-primary);
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+    transition: 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem 0 0.5rem 1rem;
+
+    &:focus {
+      border-color: var(--border-color-selected);
+    }
+
+    &:disabled {
+      background-color: var(--background-color-tertiary);
+    }
+  }
+
+  .label {
+    @include label.style;
+  }
+
+  .inputContainer {
+    position: relative;
+  }
+  span {
+    position: absolute;
+    right: 0.8rem;
+    top: 0.6rem;
+  }
+}

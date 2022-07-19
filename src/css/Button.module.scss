@@ -1,0 +1,27 @@
+@mixin primary {
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.81rem;
+  display: inline-block;
+  border: 0.0625rem solid var(--accent-color);
+  border-radius: 0.3rem;
+  padding: 0.9rem 1rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  min-width: 9rem;
+  transition: 0.2s;
+  color: var(--text-color-secondary);
+  background-color: var(--accent-color);
+  font-weight: bold;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+
+@mixin secondary {
+  background-color: transparent;
+  color: var(--accent-color);
+}
