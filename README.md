@@ -1,5 +1,5 @@
-<div align="center" style="width: 100%; display: flex; justify-content: space-between;">
-    <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="90" />
+<div align="center">
+    <img alt="storybook" style="margin: 2rem;" src="https://pbs.twimg.com/profile_images/1100804485616566273/sOct-Txm_400x400.png" width="90" />
     <img alt="react" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207" width="90" />
 </div>
 
