@@ -1,9 +1,10 @@
 import { $enum } from "ts-enum-util";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Link, { LinkVariant } from "../../components/Link/Link";
+import { UI_ELEMS } from "../../constants/storybook.index";
 
 export default {
-  title: "UI Elements/Link",
+  title: `${UI_ELEMS}Link`,
   component: Link,
   args: {
     children: "Link",

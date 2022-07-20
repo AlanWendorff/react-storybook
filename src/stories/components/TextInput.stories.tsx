@@ -1,9 +1,9 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import TextInput from "../../components/TextInput/TextInput";
-import { index } from "../../constants/storybook.index";
+import { UI_ELEMS } from "../../constants/storybook.index";
 
 export default {
-  title: `${index}TextInput`,
+  title: `${UI_ELEMS}TextInput`,
   component: TextInput,
   args: {
     id: "314",

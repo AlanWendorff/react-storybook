@@ -1,9 +1,9 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Loader from "../../components/Loader";
-import { index } from "../../constants/storybook.index";
+import { UI_ELEMS } from "../../constants/storybook.index";
 
 export default {
-  title: `${index}Loader`,
+  title: `${UI_ELEMS}Loader`,
   component: Loader,
 } as ComponentMeta<typeof Loader>;
 

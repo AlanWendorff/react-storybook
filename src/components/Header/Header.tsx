@@ -1,9 +1,9 @@
 import { ReactElement } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import styles from "./Header.module.scss";
 import { HOME } from "../../constants/routes";
 import website_logo from "../../assets/images/header/website_logo.png";
+import styles from "./Header.module.scss";
 
 const Header = (): ReactElement => (
   <div className={styles.container}>

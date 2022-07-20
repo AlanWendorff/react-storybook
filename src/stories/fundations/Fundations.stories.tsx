@@ -1,12 +1,14 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Footer from "../../components/Footer";
-import { UI_ELEMS } from "../../constants/storybook.index";
+import { MEDIA } from "../../constants/storybook.index";
 
 export default {
-  title: `${UI_ELEMS}Footer`,
+  title: `${MEDIA}Fundations`,
   component: Footer,
 } as ComponentMeta<typeof Footer>;
 
 const Template: ComponentStory<typeof Footer> = () => <Footer />;
 
-export const Default = Template.bind({});
+export const Colors = Template.bind({});
+
+export const Icons = Template.bind({});

@@ -1,10 +1,10 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Button from "../../components/Button";
-import { index } from "../../constants/storybook.index";
+import { UI_ELEMS } from "../../constants/storybook.index";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: `${index}Button`,
+  title: `${UI_ELEMS}Button`,
   component: Button,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
