@@ -1,4 +1,4 @@
-import { ReactNode, ReactElement } from "react";
+import { ReactElement } from "react";
 import styles from "./Button.module.scss";
 
 interface IButton {
